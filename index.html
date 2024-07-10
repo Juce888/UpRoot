@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
     <title>UpRoot Landscaping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'body': ['Jost']
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <div id="logo">
+<body class="bg-gradient-to-b from-[#13ece1] to-[#13ec75] font-body">
+    <div class="">
         <img src="Assets/UpRootLogo.png" alt="UpRootLogo"> 
      </div>
-     <div id="main-header">
+     <div class="">
         <h1>UpRoot Landscaping</h1>
     </div>
-    <div id="home-content">
+    <div class="">
         <h1>Are you ready to Upgrade your land and Root out the old?</h1>
         <div id="yardwork">
             <img src="Assets/FrontYardWork.jpeg" alt="yardwork" id="ydwork">
