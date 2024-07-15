@@ -11,31 +11,41 @@
             theme: {
                 fontFamily: {
                     'body': ['Jost']
+                },
+                colors: {
+                    'bright-turquoise': '#13ece1',
+                    'auzure-radiance': '#138bec',
+                    'blue': '#131eec',
+                    'meteor': '#c47c18',
+                    'inch-worm': '#8aec13',
+                    'green': '#1eec13',
+                    'malachite': '#13ec75'
                 }
             }
         }
     </script>
 </head>
-<body class="bg-gradient-to-b from-[#13ece1] to-[#13ec75] font-body">
-    <div class="">
-        <img src="Assets/UpRootLogo.png" alt="UpRootLogo"> 
+<body class="bg-gradient-to-b from-bright-turquoise to-malachite font-body bg-cover">
+    <div >
+        <img src="Assets/UpRootLogo.png" alt="UpRootLogo" class="w-20 h-20 rounded-full m-8"> 
+        <h1 class="flex justify-center text-5xl text-meteor py-6">UpRoot Landscaping</h1>    
+        <h1 class="flex justify-center text-3xl text-meteor py-6">Are you ready to Upgrade your land and Root out the old?</h1>
      </div>
-     <div class="">
-        <h1>UpRoot Landscaping</h1>
-    </div>
-    <div class="">
-        <h1>Are you ready to Upgrade your land and Root out the old?</h1>
-        <div id="yardwork">
-            <img src="Assets/FrontYardWork.jpeg" alt="yardwork" id="ydwork">
-            <p>Looking for a break from yardwork? We do everything from mowing to powerwashing! Click to see your options!</p>
+    <div class="grid grid-cols-3 gap-4 px-10">
+        <div class="grid justify-items-center">
+            <img src="Assets/FrontYardWork.jpeg" alt="yardwork" id="yardwork">
+            <p>Looking for a break from yardwork? We do everything from mowing to powerwashing! 
+                Click to see your options!</p>
         </div>
-        <div id="decor">
+        <div class="grid justify-items-center">
             <img src="Assets/FountainInstall.jpeg" alt="fountain" id="fountain">
-            <p>Want to add some style to your front yard? We have amazing professionals who would love to liven your yard up!</p>
+            <p>Want to add some style to your front yard? 
+                We have amazing professionals who would love to liven your yard up!</p>
         </div>
-        <div id="terrain">
+        <div class="grid justify-items-center">
             <img src="Assets/Bushes.jpeg" alt="bushes" id="bushes">
-            <p>Bushes and flowerbeds are certain to make you feel good about your yard!</p>
+            <p>Bushes and flowerbeds are certain to make you feel good about your yard! 
+                Just let us know where you want them and we'll take care of the rest</p>
         </div>
     </div>
 </body>
